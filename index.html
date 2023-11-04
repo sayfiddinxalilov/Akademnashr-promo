@@ -20,18 +20,19 @@
         <img src="img/logo.svg" alt="Akademnashr logo" width="227" height="60">
         
         
-        
-        <nav>
-            <ul class="sitenav-list">
-                
-                <li class="sitenav-link"><a href="#">Bosh sahifa</a></li>
-                <li class="sitenav-link"><a href="#">Kitoblar</a></li>
-                <li class="sitenav-link"><a href="#">Aksiyalar</a></li>
-                <li class="sitenav-link"><a href="#">Kantaktlar</a></li>
-            </ul>    
-        </nav>    
-        
-        <a class="main-link" href="#">Buyurtma berish</a>
+        <div class="sitenav-header-action">
+            
+            <nav>
+                <ul class="sitenav-list">
+                    <li class="sitenav-link"><a href="#">Bosh sahifa</a></li>
+                    <li class="sitenav-link"><a href="#">Kitoblar</a></li>
+                    <li class="sitenav-link"><a href="#">Aksiyalar</a></li>
+                    <li class="sitenav-link"><a href="#">Kantaktlar</a></li>
+                </ul>
+            </nav>
+            
+            <a class="main-link" href="#">Buyurtma berish</a>
+        </div>
     </header>
     <hr>
     
@@ -57,35 +58,36 @@
                 <section class="features">
                     <hr class="orange-line">
                     <h2 class="features-heading">Nega aynan Akademnashr</h2>
-                    
-                    <!-- Rasm uchun joy  -->
-                    
-                    <div class="feature-icon-wrapper">
-                        <img src="img/Icon/Solid/cursor-click.svg" alt="" width="56" height="56">
-                    </div>
-                     <h2 class="feature-title">Oson buyurtma qilish</h2>
-                    <p class="info">Akademnashr.uz saytidan o'zingizga yoqqan kitobni sodda usulda buyurtma qila olasiz.</p>
-                    
-                    <!-- Features  -->
-                    
-                    <div class="feature-icon-wrapper">
-                        <img src="img/Icon/Solid/sparkles.svg" alt="" width="56" height="56">
-                    </div>
-                    
-                    
-                     <h2 class="feature-title">Eng sara kitoblar</h2>
-                    <p class="info">Trenddagi eng ommabop turli auditoriyalarga mo'ljallangan xar hil janrdagi kitoblarni topa olasiz</p>
-                    
-                    <li class="feature">
+                    <ul class="features-list">
                         <!-- Rasm uchun joy  -->
+                        <li class="feature">
+                            <div class="feature-icon-wrapper">
+                                <img src="img/Icon/Solid/cursor-click.svg" alt="" width="56" height="56">
+                            </div>
+                             <h2 class="feature-title">Oson buyurtma qilish</h2>
+                            <p class="info">Akademnashr.uz saytidan o'zingizga yoqqan kitobni sodda usulda buyurtma qila olasiz.</p>
+
+                            <!-- rasm uchun joy  -->
+                        <li class="feature">
+                            <div class="feature-icon-wrapper">
+                                <img src="img/Icon/Solid/sparkles.svg" alt="" width="56" height="56">
+                            </div>
                         
-                        <div class="feature-icon-wrapper">
-                            <img src="img/Icon/Solid/lightning-bolt.svg" alt="" width="56" height="56">
-                        </div>
+                             <h2 class="feature-title">Eng sara kitoblar</h2>
+                            <p class="info">Trenddagi eng ommabop turli auditoriyalarga mo'ljallangan xar hil janrdagi kitoblarni topa olasiz</p>
                         
-                         <h2 class="feature-title">Tez yetkazib berish</h2>
-                        <p class="info">O'zbekistonning ixtiyoriy hududiga 3 ish kuni ichida, xalqaro buyurtmalarni 10 ish kuni ichida yetkazib beriladi.</p>
-                    </li>
+                        </li>
+                        <li class="feature">
+                            <!-- Rasm uchun joy  -->
+                        
+                            <div class="feature-icon-wrapper">
+                                <img src="img/Icon/Solid/lightning-bolt.svg" alt="" width="56" height="56">
+                            </div>
+                        
+                             <h2 class="feature-title">Tez yetkazib berish</h2>
+                            <p class="info">O'zbekistonning ixtiyoriy hududiga 3 ish kuni ichida, xalqaro buyurtmalarni 10 ish kuni ichida yetkazib beriladi.</p>
+                        </li>
+                    </ul>
                     
                 </section>
                 
@@ -104,9 +106,7 @@
             </main>
             
             <footer class="site-footer">
-                <div>
-
-
+                <div class="site-footer-top">
                     <hr class="site-footer-divider">
 
                     <a href="index.html">
@@ -118,8 +118,9 @@
                     
                     <!-- IJTIMOIY SAHIFALAR  -->
                     
-                    <ul class="site-footer-links">
-                        <li>
+                    <ul class="site-footer-socials"> 
+
+                        <li class="site-footer-links">
                             
                             
                             <a href="https://t.me/Akademnashr" target="_blank"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none"><path fill="#252420" d="M12 0C5.376 0 0 5.376 0 12s5.376 12 12 12 12-5.376 12-12S18.624 0 12 0Zm5.568 8.16c-.18 1.896-.96 6.504-1.356 8.628-.168.9-.504 1.2-.816 1.236-.696.06-1.224-.456-1.896-.9-1.056-.696-1.656-1.128-2.676-1.8-1.188-.78-.42-1.212.264-1.908.18-.18 3.252-2.976 3.312-3.228a.24.24 0 0 0-.06-.216c-.072-.06-.168-.036-.252-.024-.108.024-1.788 1.14-5.064 3.348-.48.324-.912.492-1.296.48-.432-.012-1.248-.24-1.86-.444-.756-.24-1.344-.372-1.296-.792.024-.216.324-.432.888-.66 3.504-1.524 5.832-2.532 6.996-3.012 3.336-1.392 4.02-1.632 4.476-1.632.096 0 .324.024.468.144.12.096.156.228.168.324-.012.072.012.288 0 .456Z"/></svg>
@@ -141,34 +142,36 @@
                 <hr>
                 <!-- LINKLAR  -->   
                 
-                <ul class="site-footer-links">
-                    <li><a href="#">Bosh sahifa</a></li>
-                    <li><a href="#">Kitoblar</a></li>
-                    <li><a href="#">Aksiyalar</a></li>
-                    <li><a href="#">Yangiliklar</a></li>
-                    <li><a href="#">Kantaktlar</a></li>
-                </ul>
-                
-                
-                <ul class="site-footer-links">
-                    <li><a href="#">Ilmiy nashrlar</a></li>
-                    <li><a href="#">Ilmiy ommabop nashrlar</a></li>
-                    <li><a href="#">Ma'rifiy nashrlar</a></li>
-                    <li><a href="#">Lug'atlar</a></li>
-                    <li><a href="#">Adabiy-badiiy nashrlar</a></li>
-                    <li><a href="#">Abituriyentlar uchun</a></li>
-                    <li><a href="#">Bolalar uchun</a></li>
-                </ul>
-                <ul class="site-footer-links">
-                    <li><a href="#">Ko'p so'raladigan savollar</a></li>
-                    <li><a href="#">Yetkazib berish haqida</a></li>
-                    <li><a href="#">To'lov usullari haqida</a></li>
-                </ul>
-                <ul class="site-footer-links">
-                    <li><a href="#">Bo'sh ish o'rni</a></li>
-                    <li><a href="#">Biz bilan bog'lanish</a></li>
-                    <li><a href="#">Maxfiylik nizomi</a></li>
-                </ul>
+                <div class="site-footer-buttom">
+                    <ul class="site-footer-links">
+                        <li><a href="#">Bosh sahifa</a></li>
+                        <li><a href="#">Kitoblar</a></li>
+                        <li><a href="#">Aksiyalar</a></li>
+                        <li><a href="#">Yangiliklar</a></li>
+                        <li><a href="#">Kantaktlar</a></li>
+                    </ul>
+                    
+                    
+                    <ul class="site-footer-links">
+                        <li><a href="#">Ilmiy nashrlar</a></li>
+                        <li><a href="#">Ilmiy ommabop nashrlar</a></li>
+                        <li><a href="#">Ma'rifiy nashrlar</a></li>
+                        <li><a href="#">Lug'atlar</a></li>
+                        <li><a href="#">Adabiy-badiiy nashrlar</a></li>
+                        <li><a href="#">Abituriyentlar uchun</a></li>
+                        <li><a href="#">Bolalar uchun</a></li>
+                    </ul>
+                    <ul class="site-footer-links">
+                        <li><a href="#">Ko'p so'raladigan savollar</a></li>
+                        <li><a href="#">Yetkazib berish haqida</a></li>
+                        <li><a href="#">To'lov usullari haqida</a></li>
+                    </ul>
+                    <ul class="site-footer-links">
+                        <li><a href="#">Bo'sh ish o'rni</a></li>
+                        <li><a href="#">Biz bilan bog'lanish</a></li>
+                        <li><a href="#">Maxfiylik nizomi</a></li>
+                    </ul>
+                </div>
             </footer>
             
         </body>
